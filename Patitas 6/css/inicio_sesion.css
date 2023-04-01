@@ -1,0 +1,151 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #cca59196;
+    font-family: "lato", sans-serif;
+}
+
+
+.signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+  
+.title {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+
+.inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #cca59196;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+  
+  /* Hide the placeholder texts (a) */
+  
+::placeholder {
+    color: transparent;
+}
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: #cca59196;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+  
+.submitBtn:hover {
+    background-color: #ca4b0b96;
+    transform: translateY(-2px);
+}
+
+.card-header .logo img{
+    height: 40px;
+    width: 40px;
+    display: flex;
+
+} 
+/* footer */
+
+footer{
+    background: #6498b1a6;
+    height: auto;
+    width: 100%;
+    padding-top: 14px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 600px;
+    max-height: 15px;
+    margin: 10px auto;
+    line-height: 28px; /*separacion entre lineas de texto*/
+    /* font-size: 14px; */
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: rgb(146, 129, 129);
+}
+    
+.socials a img{
+    width: 50px;
+    
+}
+.footer-bottom{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+/* footer end */
+*{
+    font-family: 'PT Sans Caption', sans-serif;
+}
